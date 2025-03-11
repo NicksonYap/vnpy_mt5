@@ -6,8 +6,8 @@ from zoneinfo import ZoneInfo
 import zmq
 import zmq.auth
 
-from vnpy_evo.event import EventEngine
-from vnpy_evo.trader.constant import (
+from vnpy.event import EventEngine
+from vnpy.trader.constant import (
     Direction,
     Exchange,
     OrderType,
@@ -15,8 +15,8 @@ from vnpy_evo.trader.constant import (
     Status,
     Interval
 )
-from vnpy_evo.trader.gateway import BaseGateway
-from vnpy_evo.trader.object import (
+from vnpy.trader.gateway import BaseGateway
+from vnpy.trader.object import (
     TickData,
     OrderData,
     TradeData,
